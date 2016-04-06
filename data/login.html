@@ -1,0 +1,26 @@
+
+
+
+<div ng-controller="loginCtrl">
+
+
+
+    <div class="container">
+
+      <form  id = "myLogin" class="form-signin" nonvalidate>
+        <h2 class="form-signin-heading">Please sign in</h2>
+       
+        <input type="email" ng-model="userName" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+       
+        <input type="password" ng-model="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" ng-click = "submit()">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+
+	</div>
